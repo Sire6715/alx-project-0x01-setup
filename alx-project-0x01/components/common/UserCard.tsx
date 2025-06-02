@@ -12,7 +12,7 @@ const UserCard: React.FC<UserProps> = ({
 }) => {
   return (
     <div className=" flex flex-col items-center justify-baseline  py-8 px-8 m-4">
-      <div className= "bg-white p-4 border rounded-lg shadow-md  w-[350px]">
+      <div className= "bg-[#f2f2f2] p-4 border rounded-lg shadow-md  w-[350px]">
         <div className="flex items-center justify-center mb-4">
           <h2 className="text-xl font-semibold mb-2 text-black">{name}</h2>
           <p>{id}</p>

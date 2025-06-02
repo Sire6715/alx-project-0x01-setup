@@ -8,7 +8,7 @@ interface UserPageProps {
 
 const Users: React.FC<UserPageProps> = ({ posts }) => {
   return (
-    <div>
+    <div className="bg-[#f2f2f2]">
       <Header />
       <div className="grid grid-cols-3">
         {posts.map((user) => (
